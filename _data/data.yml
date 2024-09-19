@@ -1,10 +1,10 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
-#
+
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -25,9 +25,6 @@ sidebar:
         - idiom: French
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
-
     interests:
       title: Interests
       info:
@@ -43,17 +40,23 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Summarise your [Catarina Farinha](https://www.linkedin.com/in/catarina-farinha-7a2108a4/) career here lorem ipsum dolor sit amet, consectetuer
+      The Labs team is the Unbabel's innovation team focused on reinventing the future of Unbabel by developing a new generation of innovative and responsible AI powered products.
+
+      Key responsibilities:
+      - Lead the the roadmap and experiments regarding data and AI solutions for the 3 products in the Labs team; 
+      - Responsible for the collaboration between the Labs team and the Research team at Unbabel;
+      - Responsible for the collaboration between the Labs team and external partners such as Champalimaud Foundation, IT, INESC-ID, ISR-Lisboa, Fraunhofer Portugal, and APELA (Portuguese Association of Lateral Amyotrophic Sclerosis);
+      - Collaboration in European Projects such as MAIA and UTTER;
+      - Co-supervision of master students;
+      - Work at the intersection of technology, business, and design;
+      - Bring the Responsible AI perspective into Labs products;
+      - Represent the Labs Team in the Center for Responsible AI initiatives;
 education:
     title: Education
     info:
       - degree: MSc in Computer Science
-        university: University of London
+        university: University of PORTUGAL
         time: 2011 - 2012
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -72,27 +75,26 @@ education:
           sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
-            - Bullet point
+            - TESTE TESTE TEST
             - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: AI Research Manager 
+        time: 2023 - Present
+        company: Unbabel 
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Key responsibilities:
+          - Lead the the roadmap and experiments regarding data and AI solutions for the 3 products in the Labs team; 
+          - Responsible for the collaboration between the Labs team and the Research team at Unbabel;
+          - Responsible for the collaboration between the Labs team and external partners such as Champalimaud Foundation, IT, INESC-ID, ISR-Lisboa, Fraunhofer Portugal, and APELA (Portuguese Association of Lateral Amyotrophic Sclerosis);
+          - Collaboration in European Projects such as MAIA and UTTER;
+          - Co-supervision of master students;
+          - Work at the intersection of technology, business, and design;
+          - Bring the Responsible AI perspective into Labs products;
+          - Represent the Labs Team in the Center for Responsible AI initiatives;
+
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
@@ -225,27 +227,27 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+#skills:
+#    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+#    toolset:
+#      - name: Python & Django
+#        level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+#      - name: Javascript & jQuery
+#        level: 98%
 
-      - name: Angular
-        level: 98%
+#     - name: Angular
+#       level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+#      - name: HTML5 & CSS
+#        level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+#      - name: Ruby on Rails
+#        level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+#      - name: Sketch & Photoshop
+#        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
